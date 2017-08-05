@@ -1,6 +1,6 @@
 {
-  "name": "express-es6-rest-api",
-  "version": "0.3.0",
+  "name": "plex-assistant",
+  "version": "0.0.1",
   "description": "Starter project for an ES6 RESTful Express API",
   "main": "dist",
   "scripts": {
@@ -24,7 +24,10 @@
       "no-unused-vars": 1
     }
   },
-  "repository": "developit/express-es6-rest-api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developit/express-es6-rest-api.git"
+  },
   "author": "Jason Miller <jason@developit.ca>",
   "license": "MIT",
   "dependencies": {
@@ -33,6 +36,7 @@
     "cors": "^2.7.1",
     "express": "^4.13.3",
     "morgan": "^1.8.0",
+    "mustache-express": "^1.2.5",
     "resource-router-middleware": "^0.6.0"
   },
   "devDependencies": {
@@ -42,5 +46,9 @@
     "babel-preset-stage-0": "^6.5.0",
     "eslint": "^3.1.1",
     "nodemon": "^1.9.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/developit/express-es6-rest-api/issues"
+  },
+  "homepage": "https://github.com/developit/express-es6-rest-api#readme"
 }
